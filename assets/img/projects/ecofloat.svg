@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1320"/><stop offset="1" stop-color="#05070D"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2563EB" stop-opacity=".35"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <g stroke="#243247" stroke-width="1"><path d="M0 60H640M0 120H640M0 180H640M0 240H640M0 300H640M80 0V360M160 0V360M240 0V360M320 0V360M400 0V360M480 0V360M560 0V360" opacity=".5"/></g>
+  <rect x="0" y="250" width="640" height="110" fill="url(#water)"/>
+  <g fill="none" stroke="#00BFFF" stroke-width="2" stroke-linecap="round">
+    <path d="M60 262c30-10 60 10 90 0s60-10 90 0 60 10 90 0 60-10 90 0 60 10 90 0 60-10 90 0" opacity=".7"/>
+    <path d="M40 292c30-10 60 10 90 0s60-10 90 0 60 10 90 0 60-10 90 0 60 10 90 0 60-10 90 0" opacity=".35"/>
+  </g>
+  <g fill="none" stroke="#F8FAFC" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M200 250h240l-20 18H220z" stroke="#00BFFF"/>
+    <path d="M220 250V170l100-60 100 60v80"/>
+    <path d="M320 110v140M220 170h200M270 140v110M370 140v110" opacity=".45"/>
+  </g>
+  <g fill="#00BFFF"><circle cx="220" cy="170" r="5"/><circle cx="420" cy="170" r="5"/><circle cx="320" cy="110" r="6"/></g>
+  <g fill="none" stroke="#00BFFF" stroke-width="1.5" opacity=".8">
+    <path d="M320 110L470 60M470 60h70" stroke-dasharray="4 6"/>
+    <path d="M500 40a30 30 0 0 1 0 40M515 28a48 48 0 0 1 0 64" stroke-linecap="round"/>
+  </g>
+  <circle cx="470" cy="60" r="6" fill="#F8FAFC"/>
+  <text x="32" y="44" font-family="Space Grotesk, Arial, sans-serif" font-size="20" font-weight="600" fill="#94A3B8" letter-spacing="3">ECOFLOAT · IoT</text>
+</svg>

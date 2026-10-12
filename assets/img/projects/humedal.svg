@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0D1320"/><stop offset="1" stop-color="#05070D"/></linearGradient>
+    <radialGradient id="pool" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#2563EB" stop-opacity=".35"/><stop offset="1" stop-color="#2563EB" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg2)"/>
+  <g stroke="#243247" opacity=".5"><path d="M0 90H640M0 180H640M0 270H640M106 0V360M213 0V360M320 0V360M426 0V360M533 0V360"/></g>
+  <ellipse cx="320" cy="250" rx="260" ry="70" fill="url(#pool)"/>
+  <g fill="none" stroke="#00BFFF" stroke-width="2">
+    <ellipse cx="320" cy="250" rx="220" ry="54" opacity=".75"/>
+    <ellipse cx="320" cy="250" rx="150" ry="36" opacity=".5"/>
+    <ellipse cx="320" cy="250" rx="80" ry="18" opacity=".3"/>
+  </g>
+  <g fill="none" stroke="#F8FAFC" stroke-width="2" stroke-linecap="round" opacity=".85">
+    <path d="M140 240V170M150 240l10-60M130 240l-12-50"/>
+    <path d="M500 240V160M510 240l12-55M490 240l-10-45"/>
+  </g>
+  <g stroke="#00BFFF" stroke-width="1.5" stroke-dasharray="4 6" fill="none" opacity=".9">
+    <path d="M140 170L250 90L390 90L500 160"/>
+    <path d="M250 90L320 250M390 90L320 250"/>
+  </g>
+  <g fill="#00BFFF"><circle cx="140" cy="170" r="6"/><circle cx="500" cy="160" r="6"/><circle cx="320" cy="250" r="7"/></g>
+  <g fill="#F8FAFC"><circle cx="250" cy="90" r="5"/><circle cx="390" cy="90" r="5"/></g>
+  <text x="32" y="44" font-family="Space Grotesk, Arial, sans-serif" font-size="20" font-weight="600" fill="#94A3B8" letter-spacing="3">HUMEDAL · IoT</text>
+</svg>
